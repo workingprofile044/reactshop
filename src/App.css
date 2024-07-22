@@ -36,3 +36,108 @@
     transform: rotate(360deg);
   }
 }
+
+.container {
+  position: relative;
+  padding: 20px;
+  background: #f0f0f0;
+}
+
+.background-element {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #333;
+  z-index: -1;
+}
+
+.highlight-window {
+  position: relative;
+  margin: 0 auto;
+  max-width: 400px;
+}
+
+.highlight-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(255, 255, 255, 0.5);
+  z-index: 1;
+}
+
+.window {
+  position: relative;
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+.main-content {
+  padding: 20px;
+  background: #fff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+.main-content h2 {
+  margin: 0;
+  font-size: 1.5em;
+  color: #333;
+}
+
+.main-content h1 {
+  margin: 10px 0;
+  font-size: 2em;
+  color: #000;
+}
+
+.main-content h3 {
+  margin: 10px 0;
+  font-size: 1.2em;
+  color: #666;
+}
+
+.description {
+  margin: 20px 0;
+  font-size: 1em;
+  color: #444;
+}
+
+.highlight-window.mobile {
+  display: none;
+}
+
+.divider {
+  height: 1px;
+  background: #ddd;
+  margin: 20px 0;
+}
+
+.purchase-info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.price {
+  font-size: 1.5em;
+  color: #000;
+}
+
+.purchase-info button {
+  padding: 10px 20px;
+  background: #000;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.purchase-info button:hover {
+  background: #333;
+}
